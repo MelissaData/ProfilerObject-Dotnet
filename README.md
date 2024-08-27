@@ -34,11 +34,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit .NET 8.0, Powershell 5.1
-<<<<<<< HEAD
 - Melissa data files for 2024-Q3
-=======
-- Melissa data files for 2024-Q3
->>>>>>> df219700e9c4051387acf596516da6325acb0cb7
 
 ## Required File(s) and Programs
 
