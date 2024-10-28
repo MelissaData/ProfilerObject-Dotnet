@@ -34,7 +34,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit .NET 8.0, Powershell 5.1
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required File(s) and Programs
 
@@ -86,8 +86,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/ProfilerObject-Dotnet
-$ cd ProfilerObject-Dotnet
+git clone https://github.com/MelissaData/ProfilerObject-Dotnet
+cd ProfilerObject-Dotnet
 ```
 
 #### Set up Melissa Updater 
@@ -120,26 +120,26 @@ Parameters:
   When you have modified the script to match your data location, let's run the script. There are two modes:
 - Interactive 
 
-	The script will prompt the user for a csv file, then use the provided csv file to test Profiler Object. For example:
-	```
-	$ .\MelissaProfilerObjectWindowsDotnet.ps1
-	```
+    The script will prompt the user for a csv file, then use the provided csv file to test Profiler Object. For example:
+    ```
+    .\MelissaProfilerObjectWindowsDotnet.ps1
+    ```
     For quiet mode:
     ```
-    $ .\MelissaProfilerObjectWindowsDotnet.ps1 -quiet
+    .\MelissaProfilerObjectWindowsDotnet.ps1 -quiet
     ```
 - Command Line 
 
-	You can pass a csv file and a license string into the ```-file``` and ```-license``` parameters respectively to test Profiler Object. For example:
+    You can pass a csv file and a license string into the ```-file``` and ```-license``` parameters respectively to test Profiler Object. For example:
     ```
-    $ .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv"
-    $ .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv" -license "<your_license_string>"
+    .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv"
+    .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv" -license "<your_license_string>"
     ```
 
-	For quiet mode:
+    For quiet mode:
     ```
-    $ .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -quiet
-    $ .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -license "<your_license_string>" -quiet
+    .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -quiet
+    .\MelissaProfilerObjectWindowsDotnet.ps1 -file "MelissaProfilerObjectSampleInput.csv"  -license "<your_license_string>" -quiet
     ```
 This is the expected output from a successful setup for interactive mode:
 
