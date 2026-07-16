@@ -84,8 +84,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/net/melissaprofilerobjectwindowsnet.git
-cd melissaprofilerobjectwindowsnet
+git clone https://github.com/MelissaData/ProfilerObject-Dotnet
+cd ProfilerObject-Dotnet
 ```
 
 #### Set up Melissa Updater 
